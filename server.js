@@ -8,8 +8,8 @@ const productRouter = require("./routes/productRouter");
 app.use(express.json());
 
 
-app.post("/",productRouter)
-app.get("/",productRouter)
+app.use("/",productRouter)
+
 
 
 
